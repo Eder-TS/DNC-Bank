@@ -1,0 +1,43 @@
+:root{
+    --primary: #043873;
+    --secondary: #00ABBD;
+    --tertiary: #000000;
+    --success: #0099DD;
+    --info: #4F9CF9;
+    --warning: #FFE492;
+    --danger: #E3371E;
+}
+
+.bg-primary, .btn-primary{
+    background-color: var(--primary) !important;
+}
+.bg-secondary, .btn-secondary{
+    background-color: var(--secondary) !important;
+}
+.bg-tertiary, .btn-tertiary{
+    background-color: var(--tertiary) !important;
+}
+.bg-success, .btn-success{
+    background-color: var(--success) !important;
+}
+.bg-info, .btn-info{
+    background-color: var(--info) !important;
+}
+.bg-warning, .btn-warning{
+    background-color: var(--warning) !important;
+}
+.bg-danger .btn-danger{
+    background-color: var(--danger) !important;
+}
+
+#feeCardHighlighted {
+    list-style-image: url('assets/images/img_yellow_list_item.svg');
+}
+
+.feeCard{
+    list-style-image: url('assets/images/img_black_list_item.svg');
+}
+
+footer ul{
+    list-style-type: none;
+}
