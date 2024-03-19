@@ -1,11 +1,8 @@
 :root{
     --primary: #043873;
     --secondary: #00ABBD;
-    --tertiary: #000000;
-    --success: #0099DD;
     --info: #4F9CF9;
     --warning: #FFE492;
-    --danger: #E3371E;
 }
 
 .bg-primary, .btn-primary{
@@ -14,20 +11,11 @@
 .bg-secondary, .btn-secondary{
     background-color: var(--secondary) !important;
 }
-.bg-tertiary, .btn-tertiary{
-    background-color: var(--tertiary) !important;
-}
-.bg-success, .btn-success{
-    background-color: var(--success) !important;
-}
 .bg-info, .btn-info{
     background-color: var(--info) !important;
 }
 .bg-warning, .btn-warning{
     background-color: var(--warning) !important;
-}
-.bg-danger .btn-danger{
-    background-color: var(--danger) !important;
 }
 
 #feeCardHighlighted {
@@ -40,4 +28,8 @@
 
 footer ul{
     list-style-type: none;
+}
+
+#lower-bar{
+    border-top: solid 1px gray;
 }
